@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3707AD72BB85DB600592861 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3707AD62BB85DB600592861 /* main.swift */; };
+		D3707ADE2BB85DDB00592861 /* findWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3707ADD2BB85DDB00592861 /* findWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D3707AD32BB85DB600592861 /* find-words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "find-words"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3707AD32BB85DB600592861 /* word-finder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "word-finder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3707AD62BB85DB600592861 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D3707ADD2BB85DDB00592861 /* findWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findWords.swift; sourceTree = "<group>"; };
+		D3707ADF2BB85E8D00592861 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,8 @@
 		D3707ACA2BB85DB600592861 = {
 			isa = PBXGroup;
 			children = (
-				D3707AD52BB85DB600592861 /* find-words */,
+				D3707ADF2BB85E8D00592861 /* README.md */,
+				D3707AD52BB85DB600592861 /* sources */,
 				D3707AD42BB85DB600592861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +53,26 @@
 		D3707AD42BB85DB600592861 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3707AD32BB85DB600592861 /* find-words */,
+				D3707AD32BB85DB600592861 /* word-finder */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3707AD52BB85DB600592861 /* find-words */ = {
+		D3707AD52BB85DB600592861 /* sources */ = {
 			isa = PBXGroup;
 			children = (
 				D3707AD62BB85DB600592861 /* main.swift */,
+				D3707ADD2BB85DDB00592861 /* findWords.swift */,
 			);
-			path = "find-words";
+			path = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3707AD22BB85DB600592861 /* find-words */ = {
+		D3707AD22BB85DB600592861 /* word-finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3707ADA2BB85DB600592861 /* Build configuration list for PBXNativeTarget "find-words" */;
+			buildConfigurationList = D3707ADA2BB85DB600592861 /* Build configuration list for PBXNativeTarget "word-finder" */;
 			buildPhases = (
 				D3707ACF2BB85DB600592861 /* Sources */,
 				D3707AD02BB85DB600592861 /* Frameworks */,
@@ -77,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "find-words";
+			name = "word-finder";
 			productName = "find-words";
-			productReference = D3707AD32BB85DB600592861 /* find-words */;
+			productReference = D3707AD32BB85DB600592861 /* word-finder */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3707ACE2BB85DB600592861 /* Build configuration list for PBXProject "find-words" */;
+			buildConfigurationList = D3707ACE2BB85DB600592861 /* Build configuration list for PBXProject "word-finder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3707AD22BB85DB600592861 /* find-words */,
+				D3707AD22BB85DB600592861 /* word-finder */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3707ADE2BB85DDB00592861 /* findWords.swift in Sources */,
 				D3707AD72BB85DB600592861 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +276,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3707ACE2BB85DB600592861 /* Build configuration list for PBXProject "find-words" */ = {
+		D3707ACE2BB85DB600592861 /* Build configuration list for PBXProject "word-finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3707AD82BB85DB600592861 /* Debug */,
@@ -279,7 +285,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3707ADA2BB85DB600592861 /* Build configuration list for PBXNativeTarget "find-words" */ = {
+		D3707ADA2BB85DB600592861 /* Build configuration list for PBXNativeTarget "word-finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3707ADB2BB85DB600592861 /* Debug */,
